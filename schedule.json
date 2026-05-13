@@ -1,0 +1,404 @@
+{
+  "version": 1,
+  "meta": {
+    "group": "ФДМ-125",
+    "title": "Учебное расписание",
+    "semester": {
+      "start": "2026-02-09",
+      "end": "2026-06-30",
+      "weeksTotal": 18
+    },
+    "weekCalibration": {
+      "description": "Верхняя неделя = чётный ISO-номер недели (проверено на 13.05.2026 — среда, верхняя). При несовпадении с вашим вузом включите инверсию в настройках.",
+      "upperWeekWhenIsoWeekEven": true
+    },
+    "timeSlots": [
+      { "id": 1, "label": "I", "start": "08:30", "end": "10:00" },
+      { "id": 2, "label": "II", "start": "10:10", "end": "11:40" },
+      { "id": 3, "label": "III", "start": "12:10", "end": "13:40" },
+      { "id": 4, "label": "IV", "start": "13:50", "end": "15:20" }
+    ]
+  },
+  "days": [
+    {
+      "id": "monday",
+      "label": "Понедельник",
+      "short": "Пн",
+      "slots": [
+        {
+          "slotId": 1,
+          "mode": "split",
+          "upper": {
+            "subject": "Иностранный язык",
+            "type": "practice",
+            "room": "303",
+            "building": "",
+            "teacher": "Дусина Н.В.",
+            "title": "ст. преподаватель"
+          },
+          "lower": {
+            "subject": "Родной язык",
+            "type": "lecture",
+            "room": "309 / 305а / 303",
+            "building": "",
+            "teacher": "Богдашкина С.В.; Водясова Л.П.; Муртазина А.Ф.",
+            "title": "доценты"
+          }
+        },
+        {
+          "slotId": 2,
+          "mode": "common",
+          "common": {
+            "subject": "Современный русский язык",
+            "type": "practice",
+            "room": "312",
+            "building": "",
+            "teacher": "Горшкова Н.Н.",
+            "title": "доцент"
+          }
+        },
+        {
+          "slotId": 3,
+          "mode": "split",
+          "upper": {
+            "subject": "История родной литературы",
+            "type": "lecture",
+            "room": "307, 305а, 303",
+            "building": "",
+            "teacher": "Азыркина Е.И.; Маскаева С.Н.; Акашкин М.М.",
+            "title": "доценты"
+          },
+          "lower": {
+            "subject": "Безопасность жизнедеятельности",
+            "type": "practice",
+            "room": "308",
+            "building": "",
+            "teacher": "Карабанова О.Н.",
+            "title": "доцент"
+          }
+        },
+        {
+          "slotId": 4,
+          "mode": "split",
+          "upper": {
+            "subject": "Иностранный язык",
+            "type": "practice",
+            "room": "301",
+            "building": "",
+            "teacher": "Кирьякова О.В.",
+            "title": "ст. преподаватель"
+          },
+          "lower": {
+            "subject": "Речевые практики",
+            "type": "practice",
+            "room": "302",
+            "building": "",
+            "teacher": "Николаева Э.Е.",
+            "title": "преподаватель"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tuesday",
+      "label": "Вторник",
+      "short": "Вт",
+      "slots": [
+        {
+          "slotId": 1,
+          "mode": "split",
+          "upper": {
+            "subject": "Технологии цифрового образования",
+            "type": "practice",
+            "room": "Кластер «Техника»",
+            "building": "",
+            "teacher": "Храмов Д.А.",
+            "title": "ст. преподаватель"
+          },
+          "lower": {
+            "subject": "Элективные курсы по физической культуре и спорту",
+            "type": "practice",
+            "room": "с/з",
+            "building": "",
+            "teacher": "Александров Д.Ю.",
+            "title": "ст. преподаватель"
+          }
+        },
+        {
+          "slotId": 2,
+          "mode": "split",
+          "upper": {
+            "subject": "Современный русский язык",
+            "type": "lecture",
+            "room": "323",
+            "building": "",
+            "teacher": "Горшкова Н.Н.",
+            "title": "доцент"
+          },
+          "lower": {
+            "subject": "История родной литературы",
+            "type": "practice",
+            "room": "309 / 305а / 300",
+            "building": "",
+            "teacher": "Азыркина Е.И.; Маскаева С.Н.; Акашкин М.М.",
+            "title": "доценты"
+          }
+        },
+        {
+          "slotId": 3,
+          "mode": "split",
+          "upper": {
+            "subject": "Психология",
+            "type": "lecture",
+            "room": "323",
+            "building": "",
+            "teacher": "Савинова Т.В.",
+            "title": "доцент"
+          },
+          "lower": {
+            "subject": "Родной язык",
+            "type": "practice",
+            "room": "309 / 305а / 303",
+            "building": "",
+            "teacher": "Богдашкина С.В.; Водясова Л.П.; Муртазина А.Ф.",
+            "title": "доценты"
+          }
+        },
+        {
+          "slotId": 4,
+          "mode": "parallel",
+          "tracks": [
+            {
+              "label": "Подгр. 1",
+              "lesson": {
+                "subject": "Иностранный язык",
+                "type": "practice",
+                "room": "303",
+                "building": "",
+                "teacher": "Дусина Н.В.",
+                "title": "ст. преподаватель"
+              }
+            },
+            {
+              "label": "Подгр. 2",
+              "lesson": {
+                "subject": "Технологии цифрового образования",
+                "type": "practice",
+                "room": "304",
+                "building": "",
+                "teacher": "Храмов Д.А.",
+                "title": "ст. преподаватель"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wednesday",
+      "label": "Среда",
+      "short": "Ср",
+      "slots": [
+        {
+          "slotId": 1,
+          "mode": "split",
+          "upper": {
+            "subject": "История России",
+            "type": "practice",
+            "room": "301",
+            "building": "",
+            "teacher": "Седышев О.В.",
+            "title": "доцент"
+          },
+          "lower": {
+            "subject": "Безопасность жизнедеятельности",
+            "type": "lecture",
+            "room": "323",
+            "building": "",
+            "teacher": "Карабанова О.Н.",
+            "title": "доцент"
+          }
+        },
+        {
+          "slotId": 2,
+          "mode": "common",
+          "common": {
+            "subject": "История России",
+            "type": "lecture",
+            "room": "323",
+            "building": "",
+            "teacher": "Седышев О.В.",
+            "title": "доцент"
+          }
+        },
+        {
+          "slotId": 3,
+          "mode": "common",
+          "common": {
+            "subject": "Элективные курсы по физкультуре и спорту",
+            "type": "practice",
+            "room": "с/з",
+            "building": "",
+            "teacher": "Александров Д.Ю.",
+            "title": "ст. преподаватель"
+          }
+        },
+        {
+          "slotId": 4,
+          "mode": "split",
+          "upper": {
+            "subject": "Речевые практики",
+            "type": "practice",
+            "room": "302",
+            "building": "",
+            "teacher": "Николаева Э.Е.",
+            "title": "преподаватель"
+          },
+          "lower": {
+            "subject": "Технологии цифрового образования",
+            "type": "practice",
+            "room": "304",
+            "building": "",
+            "teacher": "Храмов Д.А.",
+            "title": "ст. преподаватель"
+          }
+        }
+      ]
+    },
+    {
+      "id": "thursday",
+      "label": "Четверг",
+      "short": "Чт",
+      "slots": [
+        {
+          "slotId": 1,
+          "mode": "split",
+          "upper": {
+            "subject": "Мифология мордовского народа",
+            "type": "lecture",
+            "room": "309",
+            "building": "",
+            "teacher": "Девяткина Т.П.",
+            "title": "профессор"
+          },
+          "lower": {
+            "subject": "Мифология мордовского народа",
+            "type": "practice",
+            "room": "309",
+            "building": "",
+            "teacher": "Девяткина Т.П.",
+            "title": "профессор"
+          }
+        },
+        {
+          "slotId": 2,
+          "mode": "common",
+          "common": {
+            "subject": "Основы медицинских знаний",
+            "type": "practice",
+            "room": "УПП «Защита Родины»",
+            "building": "",
+            "teacher": "Пожарова Г.В.",
+            "title": "доцент"
+          }
+        },
+        {
+          "slotId": 3,
+          "mode": "common",
+          "common": {
+            "subject": "Семейное воспитание",
+            "type": "practice",
+            "room": "317",
+            "building": "",
+            "teacher": "",
+            "title": ""
+          }
+        },
+        {
+          "slotId": 4,
+          "mode": "common",
+          "common": {
+            "subject": "Иностранный язык",
+            "type": "practice",
+            "room": "312",
+            "building": "",
+            "teacher": "Кирьякова О.В.",
+            "title": "ст. преподаватель"
+          }
+        }
+      ]
+    },
+    {
+      "id": "friday",
+      "label": "Пятница",
+      "short": "Пт",
+      "slots": [
+        {
+          "slotId": 1,
+          "mode": "common",
+          "common": {
+            "subject": "Технологии цифрового образования",
+            "type": "practice",
+            "room": "304",
+            "building": "",
+            "teacher": "Храмов Д.А.",
+            "title": "ст. преподаватель"
+          }
+        },
+        {
+          "slotId": 2,
+          "mode": "split",
+          "upper": {
+            "subject": "Основы медицинских знаний",
+            "type": "lecture",
+            "room": "323",
+            "building": "",
+            "teacher": "Пожарова Г.В.",
+            "title": "доцент"
+          },
+          "lower": {
+            "subject": "Психология",
+            "type": "practice",
+            "room": "312",
+            "building": "",
+            "teacher": "Савинова Т.В.",
+            "title": "доцент"
+          }
+        },
+        {
+          "slotId": 3,
+          "mode": "common",
+          "common": {
+            "subject": "Учебная технологическая (проектно-технологическая) практика",
+            "type": "practice",
+            "room": "ТУПК 1, лаб. 4",
+            "building": "",
+            "teacher": "Семиков М.Н.",
+            "title": "преподаватель"
+          }
+        },
+        {
+          "slotId": 4,
+          "mode": "split",
+          "upper": { "empty": true },
+          "lower": { "empty": true }
+        }
+      ]
+    },
+    {
+      "id": "saturday",
+      "label": "Суббота",
+      "short": "Сб",
+      "slots": [
+        { "slotId": 1, "mode": "common", "common": { "empty": true } },
+        { "slotId": 2, "mode": "common", "common": { "empty": true } }
+      ]
+    },
+    {
+      "id": "sunday",
+      "label": "Воскресенье",
+      "short": "Вс",
+      "slots": []
+    }
+  ]
+}
